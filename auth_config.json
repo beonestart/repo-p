@@ -16,7 +16,7 @@
     "issuer": "https://www.facebook.com",
     "redirect_uri": "https://startapp-pro.com/",
     "client_id": "714325409216100",
-    "client_secret": "20f88f0f8110aa4c94216d52ba625447",
+    "client_secret": "20f88f0f",
     "scope": "email",
     "response_type": "id_token",
     "oidc": false
@@ -27,7 +27,7 @@
     "issuer": "https://accounts.google.com",
     "redirect_uri": "https://startapp-pro.com",
     "client_id": "772237083265-1qm126odd19krnr7hvt4bo1vlltk21ac.apps.googleusercontent.com",
-    "client_secret": "DBLed9JEZeOYir8S_1k5F7NQ",
+    "client_secret": "DBLed9J",
     "scope": "openid profile email",
     "response_type": "token id_token",
     "oidc": true
@@ -38,7 +38,7 @@
     "issuer": "https://www.linkedin.com",
     "redirect_uri": "https://startapp-pro.com",
     "client_id": "348241526580242",
-    "client_secret": "e23640ca4e032dad7903c5da65065396",
+    "client_secret": "e23640",
     "scope": "openid profile email",
     "response_type": "token id_token",
     "oidc": true
