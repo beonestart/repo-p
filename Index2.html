@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <base href="/" />
+    <title>Startapp-pro, Blazor Wasm </title>
+    <meta name="description" content="Blazor WebAssembly template, ASP.NET 6.0 WebApi, Bootstrap 4.X">
+    <!-- MDB icon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <!--<link href="assets/css/bootstrap.min.css" rel="stylesheet">-->
+    <!--<link rel='stylesheet prefetch' href='assets/css/bootstrap-rtl.min.css'>-->
+    <!-- Material Design Bootstrap -->
+    <!--<link href="assets/css/mdb.min.css" rel="stylesheet">-->
+    <!--<link rel="stylesheet" href="css/style.css">-->
+    <!--After minified and bundle up all thoses styles with gulp,
+    I prefer comment out theses styles listed on top and use one style to speed up my app
+    by enabling one file "dest/site.css.js"-->
+    <link href="dest/site.min.css" rel="stylesheet" />
+    <!-- You can add your custom style (as new file ) -->
+
+
+</head>
+
+<body class="homepage-v3 hidden-sn animated cart-v2">
+
+    <style type="text/css">
+        html,
+        body {
+            height: 100%;
+        }
+        
+        .Loading-Start {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+
+    <app>
+        <div class="Loading-Start">
+            <div>
+                <img src="images/Spin-1s-200px.gif" />
+            </div>
+        </div>
+    </app>
+
+
+    <!-- End your project here-->
+    <!-- SCRIPTS -->
+    <script src="_framework/blazor.webassembly.js"></script>
+    <!--<script>navigator.serviceWorker.register('service-worker.js');</script>-->
+    <!-- JQuery -->
+    <!--<script type="text/javascript" src="assets/js/jquery.min.js"></script>-->
+    <!-- Bootstrap tooltips -->
+    <!--<script type="text/javascript" src="assets/js/popper.min.js"></script>-->
+    <!-- Bootstrap core JavaScript -->
+    <!--<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>-->
+    <!-- MDB core JavaScript -->
+    <!--<script type="text/javascript" src="assets/js/mdb.min.js"></script>-->
+    <!--Crypt some keys used in authentication -->
+    <!--<script src="js/crypto.js"></script>-->
+    <!--<script src="js/b-wasm-oauth.js"></script>-->
+    <!--<script type="text/javascript" src="js/script.js"></script>-->
+    <!--After minified and bundle up all thoses script with gulp,
+    I prefer comment out theses styles listed on top and use one script to speed up my
+    app by enabling one script "dest/site.min.js"-->
+    <script type="text/javascript" src="dest/site.min.js"></script>
+
+    <!-- You can add your custom scripts (as new file) -->
+
+</body>
+
+</html>

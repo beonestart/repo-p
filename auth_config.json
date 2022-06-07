@@ -1,0 +1,47 @@
+{
+ 
+  "dev_urls": {
+    "ids_url": "https://localhost:44330",
+    "api_url": "https://localhost:44331",
+    "spa_url": "https://localhost:44332"
+  },
+  "prod_urls": {
+    "ids_url": "https://ids.tartapp-pro.com",
+    "api_url": "https://api.startapp-pro.com",
+    "spa_url": "https://startapp-pro.com"
+  },
+  "facebook": {
+    "authorization_endpoint": "https://www.facebook.com/v8.0/dialog/oauth",
+    "token_endpoint": "https://graph.facebook.com/v8.0/oauth/access_token",
+    "issuer": "https://www.facebook.com",
+    "redirect_uri": "https://startapp-pro.com/",
+    "client_id": "714325409216100",
+    "client_secret": "20f88f0f8110aa4c94216d52ba625447",
+    "scope": "email",
+    "response_type": "id_token",
+    "oidc": false
+  },
+  "google": {
+    "authorization_endpoint": "https://accounts.google.com/o/oauth2/v2/auth",
+    "token_endpoint": "https://oauth2.googleapis.com/token",
+    "issuer": "https://accounts.google.com",
+    "redirect_uri": "https://startapp-pro.com",
+    "client_id": "772237083265-1qm126odd19krnr7hvt4bo1vlltk21ac.apps.googleusercontent.com",
+    "client_secret": "DBLed9JEZeOYir8S_1k5F7NQ",
+    "scope": "openid profile email",
+    "response_type": "token id_token",
+    "oidc": true
+  },
+  "linkedin": {
+    "authorization_endpoint": "https://www.linkedin.com/oauth/v2/authorization",
+    "token_endpoint": "https://www.linkedin.com/oauth/v2/accessToken",
+    "issuer": "https://www.linkedin.com",
+    "redirect_uri": "https://startapp-pro.com",
+    "client_id": "348241526580242",
+    "client_secret": "e23640ca4e032dad7903c5da65065396",
+    "scope": "openid profile email",
+    "response_type": "token id_token",
+    "oidc": true
+  }
+
+}
